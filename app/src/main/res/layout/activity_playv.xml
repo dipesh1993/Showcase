@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".playv">
+
+
+   <VideoView
+        android:id="@+id/videoView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="70dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:text="प्रस्तुतकर्ता :  माननीय श्री शिरीष दादा चौधरी, आमदार अमळनेर "
+        android:background="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:id="@+id/textofc"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="16dp"
+        android:layout_marginTop="35dp"
+        android:scrollHorizontally="true"
+        android:layout_gravity="bottom"
+        android:singleLine="true"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:layout_weight="1.11" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

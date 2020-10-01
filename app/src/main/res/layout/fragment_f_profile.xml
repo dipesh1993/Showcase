@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50sp"
+        android:background="#F1EAEA"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:background="@drawable/b"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="155sp"
+            android:layout_height="155sp"
+            android:layout_marginTop="60sp"
+            android:background="@drawable/cc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="मा.श्री.शिरीषदादा चौधरी"
+            android:layout_marginTop="3dp"
+            android:background="#B7120913"
+            android:textColor="#FCFCFC"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textColor="#FFFDFD"
+            android:text="आमदार,अमळनेर विधानसभा मतदारसंघ "
+            android:padding="3sp"
+            android:background="#B7120913"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="365sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text">
+
+            <TableRow
+                android:id="@+id/firstRow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <!-- first element of the row-->
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="135sp"
+                    android:layout_height="wrap_content"
+                    android:background="#b0b0b0"
+                    android:padding="17dip"
+                    android:text="पत्ता :"
+                    android:gravity="end"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:id="@+id/textview"
+                    android:layout_width="278dp"
+                    android:layout_height="wrap_content"
+                    android:padding="18dip"
+                    android:text="अमळनेर"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/secondrow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <!-- first element of the row-->
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="135sp"
+                    android:layout_height="wrap_content"
+                    android:background="#b0b0b0"
+                    android:padding="17dip"
+                    android:gravity="end"
+                    android:textStyle="bold"
+                    android:text="जन्मदिनांक:"
+                    android:textColor="#000"
+                    android:textSize="13sp" />
+
+                <TextView
+
+                    android:id="@+id/textview1"
+                    android:layout_width="209sp"
+                    android:layout_height="wrap_content"
+                    android:padding="18dip"
+                    android:text="२६/४/१९७०"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </TableRow>
+            <TableRow
+
+                android:id="@+id/thirdrow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <!-- first element of the row-->
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="135sp"
+                    android:layout_height="wrap_content"
+                    android:background="#b0b0b0"
+                    android:padding="17dip"
+                    android:text="शिक्षण:"
+                    android:gravity="end"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="13sp" />
+
+                <TextView
+
+                    android:id="@+id/textview2"
+                    android:layout_width="209sp"
+                    android:layout_height="wrap_content"
+                    android:padding="18dip"
+                    android:text="M.A"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </TableRow>
+            <TableRow
+
+                android:id="@+id/fourthRow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <!-- first element of the row-->
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="135sp"
+                    android:layout_height="wrap_content"
+                    android:background="#b0b0b0"
+                    android:padding="17dip"
+                    android:gravity="end"
+                    android:textStyle="bold"
+                    android:text="राजकीय वाटचाल:"
+                    android:textColor="#000"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/textview3"
+                    android:layout_width="209sp"
+                    android:layout_height="wrap_content"
+                    android:padding="18dip"
+                    android:text="Text 2"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </TableRow>
+            <TableRow
+
+                android:id="@+id/fifthRow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <!-- first element of the row-->
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="135sp"
+                    android:layout_height="wrap_content"
+                    android:background="#b0b0b0"
+                    android:padding="17dip"
+                    android:gravity="end"
+                    android:textStyle="bold"
+                    android:text="शैक्षणिक वाटचाल:"
+                    android:textColor="#000"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/textview4"
+                    android:layout_width="209sp"
+                    android:layout_height="wrap_content"
+                    android:padding="18dip"
+                    android:text="Text 2"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </TableRow>
+        </TableLayout>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
